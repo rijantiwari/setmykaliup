@@ -1,18 +1,13 @@
-#!/bin/bash  
-                                      
-echo "                                                                                                     
+#!/bin/bash
+echo "
 ,--. ,--.   ,--.   ,---.   ,--.   ,--. ,--.  ,--.   ,---.   ,-----.   ,------. ,------. ,--.  ,--. 
 |  |  \  `.'  /   /  O  \  |   `.'   | |  ,'.|  |  /  O  \  |  |) /_  |  .---' |  .---' |  ,'.|  | 
 |  |   '.    /   |  .-.  | |  |'.'|  | |  |' '  | |  .-.  | |  .-.  \ |  `--,  |  `--,  |  |' '  | 
 |  |     |  |    |  | |  | |  |   |  | |  | `   | |  | |  | |  '--' / |  `---. |  `---. |  | `   | 
-`--'     `--'    `--' `--' `--'   `--' `--'  `--' `--' `--' `------'  `------' `------' `--'  `--'    "
-                                                                       
-echo "Script is made by NABEEN_TIWAREE 	for more info https://github.com/iyamnabeen"
+`--'     `--'    `--' `--' `--'   `--' `--'  `--' `--' `--' `------'  `------' `------' `--'  `--'  "
+echo "Script is made by  NABEEN_TIWAREE for more info https://github.com/iyamnabeen"
 echo ""
 echo "The script will only work with root privileges (use sudo or root)"
-echo ""
-echo "Add a root password"
-passwd root
 echo ""
 echo "Add a root password"
 passwd root
@@ -278,7 +273,7 @@ else
 fi
 unset install_upgrade
 echo "Thank you for using this script"
-echo "Made with <3 By Boy From Future"
+echo "Follow me on gitub @iyamnabeen"
 echo ""
 echo "Do you want to restart PC (suggested to restart if you upgraded)[y/n]:"
 read wanna_restart
